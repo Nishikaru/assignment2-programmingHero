@@ -174,12 +174,12 @@ cursor: pointer;
 
 .blog{
     display: grid;
-    grid-template-columns:  350px repeat( 1, 1fr);
+    grid-template-columns:  300px repeat( 1, 1fr);
     
   }
 
   .buttons{
-    width: 312px;
+    width: 250px;
     height: 312px;
     display: flex;
     flex-direction: column;
@@ -192,17 +192,14 @@ cursor: pointer;
     flex-direction: column;
   }
   .buttons button{
-    width: 256px;
+    width: 200px;
     height: 64px;
     border-radius: 10px;
     font-size: 20px;
     border: none;
     background-color: #fff;
   }
-  /* #active-btn{
-    background-color: #eed027 ;
-    color: #000;
-  } */
+  
   #active-btn,#act-btn{
     /* background-color: #DD0000;
     color: #fff; */
@@ -262,29 +259,8 @@ cursor: pointer;
     display: none;
   }
 
-  @media screen and (max-width:1130px) and (min-width:769px) {
-    /* .blog{
-        
-        grid-template-columns: repeat( 1, 1fr);
-        
-      }
-    .buttons{
-        width: auto;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        height: auto;
-        padding: 20px;
-    }
-    .buttons button{
-        max-width: 25vw;
-        height: 60px;
-        
-        
-        border: #E8E8E8 1px solid;
-        
-        
-      } */
+  @media screen and (max-width:950px) and (min-width:769px) {
+    
       .card-div{
     
        
